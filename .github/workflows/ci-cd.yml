@@ -48,5 +48,5 @@ jobs:
         id: deploy
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'Your-Azure-App-Service-Name'
-          images: 'your-dockerhub-username/your-app-name:latest'
+          app-name: 'DS-IZ-Docker'
+          images: 'ibrahimzhr/lab2dsiz:latest'
