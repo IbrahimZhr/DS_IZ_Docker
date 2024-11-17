@@ -1,0 +1,28 @@
+{
+  "name": "lab2_ds_iz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^25.0.1"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom",
+    "setupFiles": [
+      "./jest.setup.js"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "util": "^0.12.5"
+  }
+}
