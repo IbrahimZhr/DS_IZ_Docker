@@ -13,6 +13,9 @@ RUN npm install
 # Copy the entire project to the working directory
 COPY . .
 
+# Run tests (failing here will break the build process)
+RUN npm test
+
 # Expose the port your app runs on (default for Express apps is 3000)
 EXPOSE 3000
 
