@@ -11,5 +11,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Export the function for testing purposes
 module.exports = {
-    getMessage: () => "Button clicked! Welcome to My Web App!"
+    getMessage: () => "Button clicked! It's about the journey not the destination!"
 };

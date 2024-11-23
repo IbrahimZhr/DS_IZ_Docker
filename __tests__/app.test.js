@@ -47,6 +47,6 @@ describe('Web Application Tests', () => {
     await new Promise(resolve => setTimeout(resolve, 100));
 
     // Now check if the message was updated
-    expect(message.textContent).toBe('Button clicked! Welcome to My Web App!');
+    expect(message.textContent).toBe("Button clicked! It's about the journey not the destination!");
   });
 });
