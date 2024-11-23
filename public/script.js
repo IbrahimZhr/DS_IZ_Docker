@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const message = document.getElementById("message");
 
     button.addEventListener("click", () => {
-        message.textContent = "Button clicked! Welcome to My Web App!";
+        message.textContent = "Button clicked! It's about the journey not the destination!";
         message.style.color = "#007acc";
     });
 });
